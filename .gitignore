@@ -1,0 +1,5 @@
+prices.db
+*.db
+__pycache__/
+.venv/
+*.log
