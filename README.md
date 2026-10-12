@@ -52,6 +52,8 @@ python pipeline.py --eodhd
 
 This uses the public `demo` token of [EODHD APIs](https://eodhd.com/), which works for AAPL only. For other tickers, pass your own token to `fetch_eodhd`.
 
+Two limits to know: a free EODHD key returns only the past year of history, so with the default `START` you will get about one year of bars rather than the full range; and EODHD's standard plans are for personal use, with separate Commercial plans for commercial use.
+
 ## Configuration
 
 Edit the constants at the top of `pipeline.py`:
